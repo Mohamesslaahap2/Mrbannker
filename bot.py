@@ -123,7 +123,7 @@ Phone⇢ <u>{r["phone"]}</u>
 Currency⇢ <u>{r["currency"]}</u>
 Country⇢ <u>{r["country"]}({r["code"]})[{r["flag"]}]</u>
 SENDER: <a href="tg://user?id={ID}">{FIRST}</a>
-BOT⇢ @{BOT_USERNAME}
+BoT⇢ @{BOT_USERNAME}
 OWNER⇢ <a href="tg://user?id={OWNER}">LINK</a>
 '''
     await message.reply(INFO)
